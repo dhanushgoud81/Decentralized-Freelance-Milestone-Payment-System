@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+frontend/.env
+
+# Build
+dist/
+frontend/dist/
+cache/
+artifacts/
+typechain-types/
+coverage/
+coverage.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
